@@ -76,8 +76,8 @@ return {
     -- keys = {
     --   { "<leader>as", desc = "summarize text" },
     --   { "<leader>ag", desc = "generate git message" },
-    -- },
     config = function()
+      -- },
       ---@diagnostic disable-next-line: missing-fields
       require("neoai").setup({
         models = {
