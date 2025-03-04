@@ -9,6 +9,7 @@ vim.o.clipboard = "unnamedplus"
 vim.o.history = 10000
 vim.o.swapfile = false
 vim.opt.shada:append("'1000")
+vim.o.swapfile = false
 
 vim.g.clipboard = {
   name = "xclip",
